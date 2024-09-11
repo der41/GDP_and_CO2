@@ -8,7 +8,7 @@ df = pd.read_csv(
     "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"
 )
 
-
+# we just keep the columns that we need for the graph.
 df_subsample = df[
     [
         "Mortality rate, infant (per 1,000 live births)",
